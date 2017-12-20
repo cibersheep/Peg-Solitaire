@@ -2,6 +2,7 @@
 =============
 
 * <em>Start an online</em> <b>Peg Solitaire</b> <em>session on</em> http://omerkel.github.io/Peg-Solitaire/html5/src
+* <em>Published on the Ubuntu Touch</em> <b>OpenStore</b> https://open.uappexplorer.com/app/peg.cibersheep
 * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/pegsolitaire"><img align="middle" width="150px" src="https://marketplace.cdn.mozilla.net/media/fireplace/img/pretty/marketplace_logo.png" /></a>
 * <em>Android APK available for install</em> <img align="top" width="32" src="res/android.gif" /> https://github.com/OMerkel/Peg-Solitaire/releases/tag/release_0.3
     * requires minimum Android 4.4.2 (API-19)
