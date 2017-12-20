@@ -1,0 +1,175 @@
+.peg {
+  position:absolute;
+  z-index:2;
+  width:62px;
+  height:62px;
+  border:3px;
+  border-style:solid;
+  border-color:#E95420;
+  border-radius:34px;
+  background:#E95420;
+}
+
+.peg_selected {
+  position:absolute;
+  z-index:2;
+  width:62px;
+  height:62px;
+  border:6px;
+  border-style:solid;
+  border-color:#9F6986;
+  border-radius:34px;
+  background:#9F6986;
+}
+
+.peg_target {
+  position:absolute;
+  z-index:2;
+  width:62px;
+  height:62px;
+  border:3px;
+  border-style:solid;
+  border-color:#9F6986;
+  border-radius:34px;
+  background:#9F6986;
+  opacity:0.3;
+}
+
+.hint {
+  position:absolute;
+  z-index:5;
+  pointer-events:none;
+}
+
+.hidden {
+  position:absolute;
+  z-index:2;
+  width:22px;
+  height:22px;
+  margin:20px;
+  border:3px;
+  border-style:solid;
+  border-color:black;
+  border-radius:14px;
+  background:#333;
+  opacity:0.0;
+}
+
+.hole {
+  position:absolute;
+  z-index:1;
+  width:22px;
+  height:22px;
+  margin:20px;
+  border:3px;
+  border-style:solid;
+  border-color:black;
+  border-radius:14px;
+  background:#333;
+}
+
+.board {
+  position:absolute;
+  width:520px;
+  height:520px;
+  background:transparent;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.ui-btn-icon-notext:after {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.customMenu {
+    background: url(../img/icons/icon-bars.svg) 50% 50% no-repeat;
+    left: 50%;
+    top: 50%;
+}
+
+.customBack {
+    background: url(../img/icons/icon-delete.svg) 50% 50% no-repeat;
+    left: 50%;
+    top: 50%;
+}
+
+.ui-btn-icon-notext.ui-corner-all {
+    border-radius: 20em;
+}
+
+.ui-btn {
+    border-width: 0px;
+    border-style: none;
+}
+
+.mycontent {
+  padding: 0;
+}
+
+figure.diagram {
+  width: 58%;
+  max-width: 512px;
+  border: 1px solid #cccccc;
+  margin: 0 2px 0 2px;
+  padding: 2px 12px 2px 2px;
+  border-radius: 11px;
+}
+
+figure.diagram img {
+  width: 100%;
+  border: 1px solid #cccccc;
+  padding: 4px;
+  border-radius: 7px 7px 0 0;
+  margin: 0px;
+}
+
+figure.diagram embed {
+  width: 100%;
+  border: 1px solid #cccccc;
+  padding: 4px;
+  border-radius: 7px 7px 0 0;
+  margin: 0px;
+}
+
+figure.diagram figcaption {
+  background-color: #666; color: #fff;
+  font-style: italic;
+  width: 100%;
+  padding: 5px;
+  border-radius: 0 0 8px 8px;
+  margin: 0px;
+}
+
+figure.author {
+  width: 30%;
+  max-width: 320px;
+  border: 1px solid #cccccc;
+  margin: 0 2px 0 2px;
+  padding: 2px 12px 2px 2px;
+  border-radius: 11px;
+}
+
+figure.author img {
+  width: 100%;
+  border: 1px solid #cccccc;
+  padding: 4px;
+  border-radius: 7px 7px 0 0;
+  margin: 0px;
+}
+
+figure.author embed {
+  width: 100%;
+  border: 1px solid #cccccc;
+  padding: 4px;
+  border-radius: 7px 7px 0 0;
+  margin: 0px;
+}
+
+figure.author figcaption {
+  background-color: #666; color: #fff;
+  font-style: italic;
+  width: 100%;
+  padding: 5px;
+  border-radius: 0 0 8px 8px;
+  margin: 0px;
+}

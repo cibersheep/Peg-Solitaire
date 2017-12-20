@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Peg-Solitaire
+Comment=Solitaire game. Jump on all pegs until left just one left
+Exec=webapp-container --app-id="peg.cibersheep" --fullscreen $@ www/index.html
+Terminal=false
+Type=Application
+Categories=Game
+X-Ubuntu-Touch=true
+Icon=./icon.svg
+X-Ubuntu-Splash-Color=#000000
