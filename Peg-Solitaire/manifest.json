@@ -1,6 +1,6 @@
 {
     "description":  "Solitaire game. Jump on all pegs until left just one left",
-    "framework":    "ubuntu-sdk-15.04.5",
+    "framework":    "@CLICK_FRAMEWORK@",
     "architecture": "all",	
     "hooks": {
         "peg": {
@@ -11,5 +11,5 @@
     "maintainer":   "Joan CiberSheep <cibersheep@gmail.com>",
     "name":         "peg.cibersheep",
     "title":        "peg",
-    "version":      "1.0"
+    "version":      "1.1"
 }
